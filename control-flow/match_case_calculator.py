@@ -1,4 +1,4 @@
-#A python program that uses match case to make a simple calculator.
+# A python program that uses match case to make a simple calculator.
 
 
 num1 = int(input("Enter the first number: "))

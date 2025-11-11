@@ -1,4 +1,5 @@
-# A python program that asks a user about the weather and gives advice based on the input.
+# A python program that asks a user about the weather and gives advice based on
+# the input.
 
 
 weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
