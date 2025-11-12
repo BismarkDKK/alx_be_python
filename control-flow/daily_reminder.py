@@ -16,7 +16,8 @@ match priority:
     case "low":
         string = f"Reminder: '{task}' is a {priority} priority task"
     case _:
-        no_priority()
+        print("The priority you typed doesn't exist in the software.")
+        quit()
 
 
 # check if the reminder is time-bound and address the user
@@ -26,7 +27,3 @@ elif time_bound == "no":
     print(f"{string}. Consider completing it when you have free time.")
 else:
     print("Incorrect time-bound type selected. Enjoy!")
-
-
-# function to handle a user typing a different priority
-print("The priority you typed doesn't exist in the software.")
