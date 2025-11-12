@@ -16,7 +16,7 @@ match priority:
     case "low":
         string = f"Reminder: '{task}' is a {priority} priority task"
     case _:
-        print("The priority you typed doesn't exist in the software.")
+        print("Reminder: the priority you typed doesn't exist in the software.")
         quit()
 
 
