@@ -11,13 +11,10 @@ time_bound = input("Is it time-bound? (yes/no): ")
 match priority:
     case "high":
         string = f"Reminder: '{task}' is a {priority} priority task"
-        address(string)
     case "medium":
         string = f"Reminder: '{task}' is a {priority} priority task"
-        address(string)
     case "low":
         string = f"Reminder: '{task}' is a {priority} priority task"
-        address(string)
     case _:
         no_priority()
 
